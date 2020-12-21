@@ -72,7 +72,7 @@ safetyOutlierExplorer <- function(data,
   time_cols <- data.frame(value_col = time_col, 
                               type = time_type,
                               label = time_label,  
-                             # order = time_order_col,
+                              order_col = time_order_col,
                               rotate_tick_labels = time_rotate_tick_labels,
                               vertical_space = time_vertical_space)
   
